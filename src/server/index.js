@@ -18,6 +18,8 @@ io.on("connection", (socket) => {
   socket.on("canvasData", (data) => {
     socket.broadcast.emit("canvasData", data);
   });
+
+  socket.on("disconnect", () => console.log("Client disconnected"));
 });
 
 const server_port = process.env.PORT || 5000;

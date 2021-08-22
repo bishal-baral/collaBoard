@@ -5,7 +5,7 @@ import "./boardStyle.css";
 
 class Board extends React.Component {
   timeout;
-  socket = io.connect("http://localhost:5000");
+  socket = io.connect(":5000");
   inputType;
   ctx;
   isDrawing = false;
