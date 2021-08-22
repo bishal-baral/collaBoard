@@ -7,7 +7,7 @@ To test it out, open the heroku link on two different tabs
 OR
 Share the link with a friend AND simply doodle!
 
-Live at: https://colla-board.herokuapp.com/
+Live at: <a href="https://colla-board.herokuapp.com/" target="_blank">Hello, world!</a>
 
 ## Available Scripts
 
